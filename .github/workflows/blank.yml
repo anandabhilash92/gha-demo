@@ -18,4 +18,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Hello Step
-        run: echo "Welcome to GHA"
+        run: |
+        echo "This is line one"
+        echo "This is line two"
